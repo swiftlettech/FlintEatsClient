@@ -1,7 +1,10 @@
 {
   "expo": {
-    "sdkVersion": "19.0.0"
-  },
-  "name": "flinteats",
-  "displayName": "Flint Eats"
+    "name": "Flint Eats",
+    "slug": "flinteats",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
 }

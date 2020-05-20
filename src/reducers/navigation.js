@@ -5,7 +5,7 @@ import { AppNavigator } from '../navigators/main';
 const initialAction = AppNavigator.router.getActionForPathAndParams('Login');
 const initialState = AppNavigator.router.getStateForAction(initialAction);
 
-export default navigationReducers = (state = initialState, action) => {
+export default function navigationReducers(state = initialState, action) {
   const nextState = AppNavigator.router.getStateForAction(action, state);
   return nextState || state;
 };

@@ -10,7 +10,7 @@ const initialState = {
   queryText: ''
 };
 
-export default eatsReducers = (state = initialState, action) => {
+export default function eatsReducers(state = initialState, action) {
   switch (action.type) {
     case LOGIN: 
       return {

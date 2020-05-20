@@ -1,4 +1,14 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
-use_frameworks!
+platform :ios, '12.1'
 
+target 'flinteats' do
+  use_frameworks!
+
+
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+
+  pod 'RNKeychain', :path => '../node_modules/react-native-keychain'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+end
